@@ -3,7 +3,7 @@
 export default function CartModal() {
   return (
     <div>
-      {/* Sepet modal içeriği buraya gelecek */}
+     <h1>Sepet</h1>
     </div>
   );
 } 
