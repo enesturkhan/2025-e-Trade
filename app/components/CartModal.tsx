@@ -19,21 +19,21 @@ export default function CartModal() {
         .cart-loader-container {
           position: absolute;
           inset: 0;
-          zoom: 0.5;
+          zoom: 1;
         }
         .loader {
-          top: calc(50% - 200px);
-          left: calc(50% - 200px);
+          top: calc(50% - 240px);
+          left: calc(50% - 240px);
           animation: girar 8s linear infinite;
-          width: 400px;
-          height: 400px;
+          width: 480px;
+          height: 480px;
           position: absolute;
           transform-style: preserve-3d;
           perspective: 10000px;
         }
         .sphere, .item {
-          width: 400px;
-          height: 400px;
+          width: 480px;
+          height: 480px;
           position: absolute;
           transform-style: preserve-3d;
           perspective: 10000px;
